@@ -1,8 +1,17 @@
 import * as React from 'react';
+//image
+import "./assets/cv-pic.jpg";
+//components
+import Section from './components/Section'
 
-
-export default function App() {
+const App: React.FC = () => {
   return (
-    <div>My CV</div>
+    <main>
+      <Section>
+        <img src={require("./assets/cv-pic.jpg")} alt='CV Picture' />
+      </Section>
+    </main>
   )
 }
+
+export default App;
