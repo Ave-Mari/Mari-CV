@@ -1,14 +1,16 @@
 import * as React from 'react';
 //image
-import "./assets/cv-pic.jpg";
+import Avatar from "./assets/cv-pic.jpg";
 //components
 import Section from './components/Section'
+//styles
+import './App.styles'
 
 const App: React.FC = () => {
   return (
     <main>
       <Section>
-        <img src={require("./assets/cv-pic.jpg")} alt='CV Picture' />
+        <img src={Avatar} alt='CV Picture' className='avatar'/>
       </Section>
     </main>
   )
