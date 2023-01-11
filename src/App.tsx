@@ -10,12 +10,24 @@ import Skill from './components/Skill/Skill'
 const App: React.FC = () => {
   return (
     <main>
-      <Section>
+      <Section title="test">
         <img src={Avatar} alt='CV Picture' className='avatar'/>
       </Section>
       <Section
       title="Основная информация"
-      ></Section>
+      >
+        
+      </Section>
+      <Section
+      title="Навыки"
+      >
+
+      </Section>
+      <Section
+      title="Проекты"
+      >
+
+      </Section>
     </main>
   )
 }
