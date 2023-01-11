@@ -1,14 +1,15 @@
 import * as React from 'react';
 //types
 type Props = {
-    link: string
+    link: React.ReactNode,
+    href?: string
 }
 
-const Link = ({ link }: Props) => {
+const Link = (props: Props) => {
   return (
-    <div>
-        {link}
-    </div>
+    <a href={props.href}>
+        {props.link}
+    </a>
   )
 }
 
