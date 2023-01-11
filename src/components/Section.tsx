@@ -1,13 +1,18 @@
 import * as React from 'react';
 //types
 type Props = {
-    children: React.ReactNode
+  title?: string
+}
+//import { Wrapper } from './Section.styles'
+
+
+const Section = ({ title }: Props) => {
+return (
+  <section>
+      <h2>{title}</h2>
+  </section>
+)
 }
 
-const Section = ({ children }: Props) => {
-  return (
-    <section>{children}</section>
-  )
-}
 
 export default Section;
