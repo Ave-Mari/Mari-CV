@@ -30,7 +30,7 @@ const App = () => {
       <Section
       title="Проекты"
       >
-        {projects.map((title, url) => <Link title={title} href={url}/>)}
+        {projects.map((link) => <Link title={link.title} href={link.url}/>)}
 
       </Section> 
     </main>
