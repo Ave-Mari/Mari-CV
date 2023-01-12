@@ -4,11 +4,12 @@ import Avatar from "./assets/cv-pic.jpg";
 //components
 import Section from './components/Section'
 import Skill from './components/Skill/Skill'
+import Link from './components/Link/Link'
 //styles
 import './main-styles.css'
 //data
 import skills from './skills-data'
-
+import projects from './links-projects-data'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <Section
       title="Проекты"
       >
+        {projects.map((title, url) => <Link title={title} href={url}/>)}
 
       </Section> 
     </main>
