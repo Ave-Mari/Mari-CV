@@ -5,6 +5,9 @@ import Avatar from "./assets/cv-pic.jpg";
 import Section from './components/Section'
 import Skill from './components/Skill/Skill'
 //styles
+import './main-styles.css'
+//data
+import skills from './skills-data'
 
 
 const App = () => {
@@ -21,7 +24,7 @@ const App = () => {
       <Section
       title="Навыки"
       >
-
+        {skills.map((skill) => <Skill skill={skill} /> )}
       </Section>
       <Section
       title="Проекты"
