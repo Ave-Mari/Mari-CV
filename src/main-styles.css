@@ -3,3 +3,7 @@
 body {
     font-family: 'Montserrat';
 }
+
+.avatar {
+    width: 200px;
+}
