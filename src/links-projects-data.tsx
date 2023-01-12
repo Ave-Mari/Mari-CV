@@ -1,6 +1,4 @@
-let projects:{title: string, url: string}[];
-
-export default projects = [
+let projects:{title: string, url: string}[] = [
     {
         title: 'Goals',
         url: 'https://your-goal-avemari.netlify.app'
@@ -10,4 +8,6 @@ export default projects = [
         url: 'https://todo-application-avemari.netlify.app/'
     }
 
-]
+];
+
+export default projects;
