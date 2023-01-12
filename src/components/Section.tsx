@@ -4,15 +4,16 @@ type Props = {
   title?: string,
   children: React.ReactNode
 }
-//import { Wrapper } from './Section.styles'
+//styles
+import { Wrapper } from './Section.styles'
 
 
 const Section: React.FC<Props> = ({ title, children }) => {
 return (
-  <section>
+  <Wrapper>
       <h2>{title}</h2>
       {children}
-  </section>
+  </Wrapper>
 )
 }
 
