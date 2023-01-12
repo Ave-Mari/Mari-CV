@@ -3,13 +3,15 @@ import * as React from 'react';
 type Props = {
     title: string,
     href?: string
-}                  
+}      
+//style
+import { Element } from './Link.styles';
 
 const Link: React.FC<Props> = ({title, href}) => {
   return (
-    <a href={href}>
+    <Element href={href}>
         {title}
-    </a>
+    </Element>
   )
 }
 
