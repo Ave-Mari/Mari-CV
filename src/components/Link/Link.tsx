@@ -2,8 +2,8 @@ import * as React from 'react';
 //types
 type Props = {
     title: string,
-    href: string
-}
+    href?: string
+}                  
 
 const Link: React.FC<Props> = ({title, href}) => {
   return (
