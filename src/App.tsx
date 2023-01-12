@@ -14,7 +14,7 @@ import projects from './links-projects-data'
 const App = () => {
   return (
     <main>
-      <Section title='test'>
+      <Section>
         <img src={Avatar} alt='CV Picture' className='avatar'/>
         <h1>Мари Вайпан</h1>
         <h3>Frontend-разработчик</h3>
