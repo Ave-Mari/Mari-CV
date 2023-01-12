@@ -7,13 +7,13 @@ import Skill from './components/Skill/Skill'
 //styles
 
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <main>
-      <Section title="test">
+      <Section title='test'>
         <img src={Avatar} alt='CV Picture' className='avatar'/>
       </Section>
-      <Section
+        <Section
       title="Основная информация"
       >
         
@@ -27,7 +27,7 @@ const App: React.FC = () => {
       title="Проекты"
       >
 
-      </Section>
+      </Section> 
     </main>
   )
 }

@@ -1,13 +1,13 @@
 import * as React from 'react';
 //types
 type Props = {
-    skill: React.ReactNode
+    skill: string
 }
 
-const Skill = (props: Props) => {
+const Skill: React.FC<Props> = ({skill}) => {
   return (
     <div>
-        {props.skill}
+        {skill}
     </div>
   )
 }
