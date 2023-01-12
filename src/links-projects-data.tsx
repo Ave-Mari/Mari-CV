@@ -1,4 +1,5 @@
-let projects:{title: string, url: string}[] = [
+type projects = {key: number, title: string, url: string}[];
+let projects = [
     {
         title: 'Goals',
         url: 'https://your-goal-avemari.netlify.app'
