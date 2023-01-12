@@ -16,6 +16,8 @@ const App = () => {
     <main>
       <Section title='test'>
         <img src={Avatar} alt='CV Picture' className='avatar'/>
+        <h1>Мари Вайпан</h1>
+        <h3>Frontend-разработчик</h3>
       </Section>
         <Section
       title="Основная информация"
