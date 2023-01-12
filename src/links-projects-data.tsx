@@ -7,6 +7,10 @@ let projects = [
     {
         title: 'Todo List',
         url: 'https://todo-application-avemari.netlify.app/'
+    },
+    {
+        title: 'CV',
+        url: 'https://github.com/Ave-Mari'
     }
 
 ];
