@@ -4,6 +4,11 @@ body {
     font-family: 'Montserrat';
 }
 
+main {
+    width: 1440px;
+    background: #E4FDFF;
+}
+
 .avatar {
     width: 200px;
 }
