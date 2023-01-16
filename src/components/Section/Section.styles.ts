@@ -21,6 +21,7 @@ export const Wrapper = styled.section`
     h2 {
         font-weight: 600;
         font-size: 28px;
+        margin-top: 0px;
     }
 
     h3 {
