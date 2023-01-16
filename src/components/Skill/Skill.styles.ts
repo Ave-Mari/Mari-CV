@@ -9,4 +9,11 @@ export const Element = styled.div`
         color: #fff;
         margin-right: 3px;
 
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+         -khtml-user-select: none; 
+           -moz-user-select: none; 
+            -ms-user-select: none; 
+                user-select: none;
+
 `
