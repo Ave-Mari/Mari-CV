@@ -5,16 +5,16 @@ import { Wrapper } from './Table.styles'
 const Table: React.FC = () => {
   return (
     <Wrapper>
-    <tr>
-      <td>E-mail:</td>
+    <tr> 
+      <th scope='row'>E-mail:</th>
       <td>avemari98@gmail.com</td>
     </tr>
     <tr>
-      <td>Telegram:</td>
+    <th scope='row'>Telegram:</th>
       <td>@marifog</td>
     </tr>
     <tr>
-      <td>Github:</td>
+    <th scope='row'>Github:</th>
       <td>https://github.com/Ave-Mari</td>
     </tr>
   </Wrapper>
