@@ -2,7 +2,7 @@ import * as React from 'react';
 //image
 import Avatar from "./assets/cv-pic.jpg";
 //components
-import Section from './components/Section'
+import Section from './components/Section/Section'
 import Skill from './components/Skill/Skill'
 import Link from './components/Link/Link'
 //styles
