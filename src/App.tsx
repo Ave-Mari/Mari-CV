@@ -5,6 +5,7 @@ import Avatar from "./assets/cv-pic.jpg";
 import Section from './components/Section/Section'
 import Skill from './components/Skill/Skill'
 import Link from './components/Link/Link'
+import Table from './components/Table/Table'
 //styles
 import './main-styles.css'
 //data
@@ -22,6 +23,7 @@ const App = () => {
         <Section
       title="Основная информация"
       >
+        <Table />
         
       </Section>
       <Section
