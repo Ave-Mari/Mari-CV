@@ -6,6 +6,9 @@ export const Element = styled.a`
     text-decoration: none;
     color: white;
     padding: 7px 24px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 4px;
 
     &:hover {
         background: #03857D;
