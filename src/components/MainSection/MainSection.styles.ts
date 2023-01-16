@@ -11,12 +11,22 @@ export const Wrapper = styled.section`
     flex-direction: column;
     align-items: center;
 
-    h2 {
-        font-weight: 600;
-        font-size: 28px;
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
         margin-top: 0px;
-    }    
+        margin-bottom: 10px;
+    }
 
-       
+    h3 {
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0px;
 
-`
+    }
+
+    .avatar {
+        width: 240px;
+    }
+    
+`;
