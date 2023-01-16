@@ -1,7 +1,6 @@
 import * as React from 'react';
-//image
-import Avatar from "./assets/cv-pic.jpg";
 //components
+import MainSection from './components/MainSection/MainSection'
 import Section from './components/Section/Section'
 import Skill from './components/Skill/Skill'
 import Link from './components/Link/Link'
@@ -15,11 +14,10 @@ import projects from './links-projects-data'
 const App = () => {
   return (
     <main>
-      <Section>
-        <img src={Avatar} alt='CV Picture' className='avatar'/>
-        <h1>Мари Вайпан</h1>
-        <h3>Frontend-разработчик</h3>
-      </Section>
+      <MainSection
+      name="Мари Вайпан"
+      position='Frontend-разработчик'
+      />     
         <Section
       title="Основная информация"
       >
