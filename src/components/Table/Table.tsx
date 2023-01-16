@@ -1,8 +1,10 @@
 import * as React from 'react';
+//styles
+import { Wrapper } from './Table.styles'
 
 const Table: React.FC = () => {
   return (
-    <table>
+    <Wrapper>
     <tr>
       <td>E-mail:</td>
       <td>avemari98@gmail.com</td>
@@ -15,7 +17,7 @@ const Table: React.FC = () => {
       <td>Github:</td>
       <td>https://github.com/Ave-Mari</td>
     </tr>
-  </table>
+  </Wrapper>
   )
 }
 
