@@ -10,6 +10,7 @@ import './main-styles.css'
 //data
 import skills from './skills-data'
 import projects from './links-projects-data'
+import courses from './links-courses-data'
 
 const App = () => {
   return (
@@ -33,6 +34,12 @@ const App = () => {
       title="Проекты"
       >
         {projects.map((link) => <Link title={link.title} href={link.url}/>)}
+
+      </Section> 
+      <Section
+      title="Курсы"
+      >
+        {courses.map((link) => <Link title={link.title} href={link.url}/>)}
 
       </Section> 
     </main>
