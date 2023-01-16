@@ -7,7 +7,6 @@ type Props = {
 //styles
 import { Wrapper } from './Section.styles'
 
-
 const Section: React.FC<Props> = ({ title, children }) => {
 return (
   <Wrapper>
