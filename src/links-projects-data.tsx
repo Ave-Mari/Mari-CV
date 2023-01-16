@@ -1,4 +1,4 @@
-type projects = {key: number, title: string, url: string}[];
+type projects = {title: string, url: string}[];
 let projects = [
     {
         title: 'Goals',
@@ -14,5 +14,8 @@ let projects = [
     }
 
 ];
+
+
+
 
 export default projects;
