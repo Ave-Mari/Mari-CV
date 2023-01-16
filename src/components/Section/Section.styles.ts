@@ -7,10 +7,6 @@ export const Wrapper = styled.section`
     margin-bottom: 25px;
     padding: 30px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     h2 {
         font-weight: 600;
         font-size: 28px;
