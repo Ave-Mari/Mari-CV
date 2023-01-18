@@ -1,4 +1,4 @@
-{
+{   "include": ["src", "src/custom.d.ts"],
     "compilerOptions": {
         "typeRoots" : ["./node_modules/@types", "src/@types"],
         "outDir": "./dist/",
@@ -11,8 +11,5 @@
         "target": "es5",
         "allowJs": true,
         "jsx": "react",
-    },
-    "include": [
-        "./src/**/*"
-    ]
+    }
 }
