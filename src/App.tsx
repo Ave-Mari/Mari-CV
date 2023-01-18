@@ -37,6 +37,12 @@ const App = () => {
 
       </Section> 
       <Section
+      title="Обо мне"
+      >
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum saepe, nobis ex officiis sed hic assumenda dolorem explicabo, obcaecati consectetur voluptatibus impedit fugit quia beatae laboriosam. Quod maiores ipsa dignissimos assumenda molestias esse quo, doloremque commodi similique?</p>
+
+      </Section> 
+      <Section
       title="Курсы"
       >
         {courses.map((link) => <Link title={link.title} href={link.url}/>)}
