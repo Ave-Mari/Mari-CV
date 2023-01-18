@@ -5,6 +5,7 @@ import Section from './components/Section/Section'
 import Skill from './components/Skill/Skill'
 import Link from './components/Link/Link'
 import Table from './components/Table/Table'
+import Footer from './components/Footer/Footer'
 //styles
 import './main-styles.css'
 //data
@@ -48,6 +49,7 @@ const App = () => {
         {courses.map((link) => <Link title={link.title} href={link.url}/>)}
 
       </Section> 
+      <Footer />
     </main>
   )
 }
