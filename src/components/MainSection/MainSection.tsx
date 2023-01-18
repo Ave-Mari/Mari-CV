@@ -5,7 +5,6 @@ import Avatar from "./../../assets/cv-pic.jpg";
 type Props = {
     name: string,
     position: string,
-    // children?: React.ReactNode
 }
 //styles
 import { Wrapper } from './MainSection.styles'
@@ -18,7 +17,6 @@ const MainSection: React.FC<Props> = ({name, position }) => {
          <img src={Avatar} alt='CV Picture' className='avatar'/>
          <h1>{name}</h1>
         <h3>{position}</h3>
-        {/* {children} */}
     </Wrapper>
   )
 }
