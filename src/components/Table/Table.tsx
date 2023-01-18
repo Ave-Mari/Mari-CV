@@ -7,12 +7,11 @@ type clickToCopy = (...args: any) => void;
 
 const Table: React.FC = () => {
 
-  //const [email, setEmail] = useState<string>('avemari98@gmail.com');
-
   const clickToCopy: clickToCopy = (e) => {
     console.log(e.target.value);
     navigator.clipboard.writeText(e.target.value);
   };
+  
   return (
     <Wrapper>
     <tr> 
