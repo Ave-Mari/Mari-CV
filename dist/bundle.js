@@ -86,6 +86,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/assets/github.svg":
+/*!*******************************!*\
+  !*** ./src/assets/github.svg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"255db585f8a0eb28a1e4deb91bde207d.svg\");\n\n//# sourceURL=webpack://mari-cv/./src/assets/github.svg?");
+
+/***/ }),
+
 /***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
@@ -783,7 +794,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Wrapper\": () => (/* binding */ Wrapper)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nvar __makeTemplateObject = (undefined && undefined.__makeTemplateObject) || function (cooked, raw) {\r\n    if (Object.defineProperty) { Object.defineProperty(cooked, \"raw\", { value: raw }); } else { cooked.raw = raw; }\r\n    return cooked;\r\n};\r\n\r\nvar Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].footer(templateObject_1 || (templateObject_1 = __makeTemplateObject([\"\\n\\n\"], [\"\\n\\n\"])));\r\nvar templateObject_1;\r\n\n\n//# sourceURL=webpack://mari-cv/./src/components/Footer/Footer.styles.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Wrapper\": () => (/* binding */ Wrapper)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nvar __makeTemplateObject = (undefined && undefined.__makeTemplateObject) || function (cooked, raw) {\r\n    if (Object.defineProperty) { Object.defineProperty(cooked, \"raw\", { value: raw }); } else { cooked.raw = raw; }\r\n    return cooked;\r\n};\r\n\r\nvar Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].footer(templateObject_1 || (templateObject_1 = __makeTemplateObject([\"\\n    display: flex;\\n    align-items: center;\\n    justify-content: space-between;\\n\"], [\"\\n    display: flex;\\n    align-items: center;\\n    justify-content: space-between;\\n\"])));\r\nvar templateObject_1;\r\n\n\n//# sourceURL=webpack://mari-cv/./src/components/Footer/Footer.styles.ts?");
 
 /***/ }),
 
@@ -794,7 +805,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Footer_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.styles */ \"./src/components/Footer/Footer.styles.ts\");\n\r\n//image\r\n//import Github from './../../assets/github.svg';\r\n//styles\r\n\r\nfunction Footer() {\r\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_styles__WEBPACK_IMPORTED_MODULE_1__.Wrapper, null,\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: 'https://github.com/Ave-Mari/Mari-CV', target: \"_blank\" },\r\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: \"./../../assets/github.svg\", alt: 'link to github' })),\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"2023\")));\r\n}\r\n\n\n//# sourceURL=webpack://mari-cv/./src/components/Footer/Footer.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Footer)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _assets_github_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../assets/github.svg */ \"./src/assets/github.svg\");\n/* harmony import */ var _Footer_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.styles */ \"./src/components/Footer/Footer.styles.ts\");\n\r\n//image\r\n\r\n//styles\r\n\r\nfunction Footer() {\r\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_styles__WEBPACK_IMPORTED_MODULE_2__.Wrapper, null,\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: 'https://github.com/Ave-Mari/Mari-CV', target: \"_blank\" },\r\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _assets_github_svg__WEBPACK_IMPORTED_MODULE_1__[\"default\"], alt: 'link to github' })),\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"2023\")));\r\n}\r\n\n\n//# sourceURL=webpack://mari-cv/./src/components/Footer/Footer.tsx?");
 
 /***/ }),
 
