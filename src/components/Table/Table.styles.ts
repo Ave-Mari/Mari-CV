@@ -24,15 +24,23 @@ export const Wrapper = styled.table`
 
         a, button {
             text-decoration: underline dotted;
-            curdor: pointer;
+            cursor: pointer;
         }
 
         button:active {
-            background: #76EDED;;
+            background: #76EDED;
             
         }
         a:active {
-            background: #76EDED;;
+            background: #76EDED;
+            
+        }
+        button:hover {
+            background: #AFFFF7;
+            
+        }
+        a:hover {
+            background: #AFFFF7;
             
         }
     }
