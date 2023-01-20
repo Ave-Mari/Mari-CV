@@ -1,19 +1,27 @@
 import * as React from 'react';
-import {useState} from 'react';
+import { useState } from 'react';
+import Popup from './../Popup/Popup'
 //styles
 import { Wrapper } from './Table.styles';
 //types
 type clickToCopy = (...args: any) => void;
+type Show = boolean;
 
 const Table: React.FC = () => {
 
+  const [showPopup, setShowPopup] = useState<Show>(false);
+
   const clickToCopy: clickToCopy = (e) => {
-    console.log(e.target.value);
     navigator.clipboard.writeText(e.target.value);
+    setShowPopup(true);
+    setTimeout(() => {
+      setShowPopup(false);
+    }, 3000);
   };
   
   return (
     <Wrapper>
+      {showPopup ?  <Popup /> : null}     
     <tr> 
       <th scope='row'>E-mail:</th>
       <td>
