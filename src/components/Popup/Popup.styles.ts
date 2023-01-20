@@ -1,10 +1,15 @@
 import styled from 'styled-components';
+import 'animate.css';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div.attrs({
+    className: 'animate__backInDown animate__backOutUp'
+})`
     position: fixed;
     top: 18px;
     background: #00E1D3;
     color: #fff;
     padding: 6px 22px;
-    transition: cubic-bezier(.86,0,.07,1);
+    text-align: center;
+    left: 39%;
+    right: 39%;
 `;
