@@ -12,6 +12,4 @@ export const Wrapper = styled.div.attrs({
     font-size: 2vw;
     padding: 6px 22px;
     text-align: center;
-    left: 39%;
-    right: 39%;
 `;
