@@ -8,6 +8,7 @@ export const Element = styled.div`
         display: inline-block;
         color: #fff;
         margin-right: 3px;
+        margin-bottom: 5px;
 
         -webkit-touch-callout: none; 
         -webkit-user-select: none; 
