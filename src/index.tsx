@@ -8,6 +8,7 @@ const client = new QueryClient();
 
 ReactDOM.render(
     <QueryClientProvider client={client}>
+      <Favicon url="https://raw.githubusercontent.com/Ave-Mari/Mari-CV/main/dist/favicon.ico" />
       <App />
     </QueryClientProvider>,
     document.getElementById('app')
