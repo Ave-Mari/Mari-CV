@@ -5,10 +5,10 @@ import Popup from './../Popup/Popup'
 import { Wrapper } from './Table.styles';
 //types
 type clickToCopy = (...args: any) => void;
-type Show = boolean;
+
 
 const Table: React.FC = () => {
-
+  type Show = boolean;
   const [showPopup, setShowPopup] = useState<Show>(false);
 
   const clickToCopy: clickToCopy = (e) => {

@@ -14,6 +14,7 @@ import projects from './links-projects-data'
 import courses from './links-courses-data'
 
 const App = () => {
+  
   return (
     <main>
       <MainSection
