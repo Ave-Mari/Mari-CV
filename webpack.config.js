@@ -48,8 +48,10 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
+      title: 'Mari Vaypan CV',
+      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>Mari Vaypan CV</title><link rel="icon" href="favicon.ico"></head><body><div id=\"app\"></div></body></html>',
       filename: 'index.html',
+      favicon: './dist/favicon.ico'
     })
   ],
   resolve: {
