@@ -37,6 +37,14 @@ export const Wrapper = styled.section`
     @media only screen and (max-width: 768px) {
         width: 64vw;  
         padding: 18px;
+
+        h1 {
+            font-size: 3.9vw;
+        }
+
+        h3 {
+            font-size: 2.2vw;
+        }
         .avatar {
             width: 31vw;
         }     

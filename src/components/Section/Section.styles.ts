@@ -31,6 +31,10 @@ export const Wrapper = styled.section`
         width: 64vw;
         padding: 18px;
 
+        h2 {
+            font-size: 3vw;
+        }
+
         p {
             font-size: 1.7vw;
         }
