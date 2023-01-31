@@ -9,4 +9,8 @@ export const Wrapper = styled.footer`
     img {
         width: 2vw;
     }
+
+    p {
+        padding: 0;
+    }
 `;
