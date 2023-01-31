@@ -9,7 +9,7 @@ export const Wrapper = styled.section`
 
     h2 {
         font-weight: 600;
-        font-size: 2.4vw;
+        font-size: 2vw;
         margin-top: 0px;
     }    
 
