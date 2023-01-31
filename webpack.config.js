@@ -49,7 +49,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Mari Vaypan CV',
-      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>Mari Vaypan CV</title><link rel="icon" href="favicon.ico"></head><body><div id=\"app\"></div></body></html>',
+      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>Mari Vaypan CV</title><link rel="icon" href="favicon.ico"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body><div id=\"app\"></div></body></html>',
       filename: 'index.html',
       favicon: './dist/favicon.ico'
     })
