@@ -23,23 +23,31 @@ const Table: React.FC = () => {
     <Wrapper>
       {showPopup ?  <Popup /> : null}     
     <tr> 
-      <th scope='row'>E-mail:</th>
-      <td>
-        <button value="avemari98@gmail.com" onClick={e => clickToCopy(e)}>avemari98@gmail.com</button>
-      </td>
+      <th>E-mail:</th>
+      <th>Telegram:</th>
+      <th>Github:</th>
+
+      {/* <th scope='row'>E-mail:</th>
+      <th scope='row'>Telegram:</th>
+      <th scope='row'>Github:</th> */}
+      
     </tr>
     <tr>
-    <th scope='row'>Telegram:</th>
+    <td>
+        <button value="avemari98@gmail.com" onClick={e => clickToCopy(e)}>avemari98@gmail.com</button>
+      </td>
       <td>
       <button value="@marifog" onClick={e => clickToCopy(e)}>@marifog</button>
       </td>
-    </tr>
-    <tr>
-    <th scope='row'>Github:</th>
       <td>
         <a href='https://github.com/Ave-Mari' target="_blank">Ave-Mari</a>
         
         </td>
+    </tr>
+   
+    <tr>
+   
+      
     </tr>
   </Wrapper>
   )

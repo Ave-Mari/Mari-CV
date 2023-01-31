@@ -4,22 +4,25 @@ export const Wrapper = styled.table`
     th {
         width: 10%;
         text-align: left;
+        font-size: 1.2vw;
     }
 
     td {
         width: 10%;
         text-align: left;
-
+        
         button {
             border: none;
             border-radious: 20px;
             background: none;
             font-family: 'Montserrat';
-            font-size: 18px;
+            font-size: 1.4vw;
+            padding: 0;
         }
 
         a {
             color: #000000;
+            font-size: 1.4vw;
         }
 
         a, button {
@@ -42,6 +45,22 @@ export const Wrapper = styled.table`
         a:hover {
             background: #AFFFF7;
             
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        th {
+            font-size: 1.5vw;
+        }
+
+        td {
+            button {
+                font-size: 1.8vw;
+            }
+
+            a {
+                font-size: 1.8vw;
+            }
         }
     }
 `;
