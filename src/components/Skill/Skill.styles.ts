@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Element = styled.div`
         padding: 5px 15px;
-        font-size: 1.2vw;
+        font-size: 1vw;
         background: #7C3AD2;
         border-radius: 20px;
         display: inline-block;
