@@ -9,9 +9,17 @@ export const Wrapper = styled.section`
 
     h2 {
         font-weight: 600;
-        font-size: 28px;
+        font-size: 2.4vw;
         margin-top: 0px;
     }    
+
+    @media only screen and (max-width: 1024px) {
+        width: 58vw;
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 64vw;
+    }
 
        
 

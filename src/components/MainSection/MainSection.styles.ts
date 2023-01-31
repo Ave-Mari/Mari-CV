@@ -13,14 +13,14 @@ export const Wrapper = styled.section`
 
     h1 {
         font-weight: 700;
-        font-size: 30px;
+        font-size: 4vw;
         margin-top: 0px;
         margin-bottom: 10px;
     }
 
     h3 {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 2.3vw;
         margin: 0px;
 
     }
@@ -28,5 +28,14 @@ export const Wrapper = styled.section`
     .avatar {
         width: 240px;
     }
+
+    @media only screen and (max-width: 1024px) {
+        width: 58vw;
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 60vw;
+    }
+
     
 `;
