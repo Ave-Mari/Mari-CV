@@ -48,7 +48,7 @@ export const Wrapper = styled.table`
         }
     }
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 768px) {
         th {
             font-size: 1.5vw;
         }
@@ -63,4 +63,38 @@ export const Wrapper = styled.table`
             }
         }
     }
+
+    @media only screen and (max-width: 480px) {
+        th {
+            font-size: 2.2vw;
+        }
+
+        td {
+            button {
+                font-size: 2.1vw;
+            }
+
+            a {
+                font-size: 2.1vw;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        th {
+            font-size: 2.9vw;
+        }
+
+        td {
+            button {
+                font-size: 2.7vw;
+            }
+
+            a {
+                font-size: 2.7vw;
+            }
+        }
+    }
+
+   
 `;
