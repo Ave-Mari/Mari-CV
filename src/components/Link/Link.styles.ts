@@ -9,13 +9,22 @@ export const Element = styled.a`
     display: inline-block;
     margin-right: 8px;
     margin-bottom: 4px;
+    font-size: 1.4vw;
 
     &:hover {
         background: #03857D;
     }
 
     @media only screen and (max-width: 1024px) {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
+
+    @media only screen and (max-width: 768px) {
+        font-size: 1.9vw;
+      }
+    @media only screen and (max-width: 480px) {
+        font-size: 2.5vw;
+        padding: 5px 22px;
+      }
 
 `

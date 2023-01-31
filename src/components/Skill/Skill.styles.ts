@@ -17,4 +17,13 @@ export const Element = styled.div`
             -ms-user-select: none; 
                 user-select: none;
 
+
+        @media only screen and (max-width: 768px) {
+          font-size: 1.6vw;
+        } 
+
+        @media only screen and (max-width: 480px) {
+          font-size: 2.4vw;
+        }
+
 `

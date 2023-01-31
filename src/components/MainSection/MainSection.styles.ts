@@ -34,8 +34,26 @@ export const Wrapper = styled.section`
     }
 
     @media only screen and (max-width: 768px) {
-        width: 60vw;
+        width: 64vw;  
+        padding: 18px;
+        .avatar {
+            width: 31vw;
+        }     
     }
+
+    @media only screen and (max-width: 480px) {
+        width: 84vw;
+
+        h1 {
+            font-size: 5vw;
+        }
+
+        h3 {
+            font-size: 2.9vw;
+        }
+      }
+
+    
 
     
 `;
