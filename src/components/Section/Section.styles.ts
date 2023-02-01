@@ -20,6 +20,10 @@ export const Wrapper = styled.section`
 
     @media only screen and (max-width: 1024px) {
         width: 58vw;
+
+        h2 {
+            font-size: 2.7vw;
+        }
         
         p {
             font-size: 1.5vw;
