@@ -9,7 +9,7 @@ export const Element = styled.a`
     display: inline-block;
     margin-right: 8px;
     margin-bottom: 4px;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 
     &:hover {
         background: #03857D;
