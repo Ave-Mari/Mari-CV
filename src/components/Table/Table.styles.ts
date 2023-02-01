@@ -12,11 +12,11 @@ export const Wrapper = styled.table`
         text-align: left;
         
         button {
+            font-size: 1.4vw;
             border: none;
             border-radious: 20px;
             background: none;
-            font-family: 'Montserrat';
-            font-size: 1.4vw;
+            font-family: 'Montserrat';            
             padding: 0;
         }
 
@@ -48,50 +48,67 @@ export const Wrapper = styled.table`
         }
     }
 
-    @media only screen and (max-width: 768px) {
+
+    @media only screen and (max-width: 1024px) {
         th {
-            font-size: 1.5vw;
+            font-size: 2vw;
         }
 
         td {
             button {
-                font-size: 1.8vw;
+                font-size: 1.9vw;
             }
 
             a {
-                font-size: 1.8vw;
+                font-size: 1.9vw;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        th {
+            font-size: 2.4vw;
+        }
+
+        td {
+            button {
+                font-size: 2.3vw;
+            }
+
+            a {
+                font-size: 2.3vw;
             }
         }
     }
 
     @media only screen and (max-width: 480px) {
         th {
-            font-size: 2.2vw;
+            font-size: 3vw;
         }
 
         td {
             button {
-                font-size: 2.1vw;
+                font-size: 2.9vw;
             }
 
             a {
-                font-size: 2.1vw;
+                font-size: 2.9vw;
             }
         }
     }
     
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 380px) {
         th {
-            font-size: 2.9vw;
+            font-size: 3vw;
         }
 
         td {
             button {
-                font-size: 2.7vw;
+                font-size: 2.9vw;
             }
 
             a {
-                font-size: 2.7vw;
+                font-size: 2.9vw;
             }
         }
     }
