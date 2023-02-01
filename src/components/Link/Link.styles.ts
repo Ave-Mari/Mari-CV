@@ -16,7 +16,7 @@ export const Element = styled.a`
     }
 
     @media only screen and (max-width: 1024px) {
-        font-size: 1.5vw;
+        font-size: 1.6vw;
     }
 
     @media only screen and (max-width: 768px) {
