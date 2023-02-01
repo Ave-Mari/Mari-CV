@@ -41,7 +41,12 @@ const App = () => {
       <Section
       title="Обо мне"
       >
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum saepe, nobis ex officiis sed hic assumenda dolorem explicabo, obcaecati consectetur voluptatibus impedit fugit quia beatae laboriosam. Quod maiores ipsa dignissimos assumenda molestias esse quo, doloremque commodi similique?</p>
+       <p>
+        Занимаюсь фронтенд-разработкой, стремлюсь создавать сложные веб-приложения, которые могут быть полезны для пользователей и бизнеса. </p>
+        <p> Нацелена на развитие имеющихся навыков, а также приобретение новых. Легко и быстро обучаюсь, умею гуглить и читать документацию на английском.
+      Могу самостоятельно решить большинство возникающих вопросов, но также буду рада хорошему ментору в компании. </p>       
+        <p>Ценю атмосферу дружелюбия и понимания в команде.</p>
+        <p>Ранее работала в сфере продаж и другой технической сфере.</p>
 
       </Section> 
       <Section
