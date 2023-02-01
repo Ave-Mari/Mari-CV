@@ -11,11 +11,13 @@ export const Wrapper = styled.section`
         font-weight: 600;
         font-size: 2vw;
         margin-top: 0px;
+        margin-bottom: 7px;
     }    
 
     p {
         margin: 0;
         font-size: 1.3vw;
+        text-indent: 3%
     }
 
     @media only screen and (max-width: 1024px) {
