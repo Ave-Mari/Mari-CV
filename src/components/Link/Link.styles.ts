@@ -23,7 +23,7 @@ export const Element = styled.a`
         font-size: 1.9vw;
       }
     @media only screen and (max-width: 480px) {
-        font-size: 2.5vw;
+        font-size: 2.8vw;
         padding: 5px 22px;
       }
 

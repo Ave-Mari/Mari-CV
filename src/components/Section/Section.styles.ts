@@ -55,7 +55,7 @@ export const Wrapper = styled.section`
         }
 
         p {
-            font-size: 2.5vw;
+            font-size: 2.8vw;
         }
 
     }
