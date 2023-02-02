@@ -6,6 +6,7 @@ import Skill from './components/Skill/Skill'
 import Link from './components/Link/Link'
 import Table from './components/Table/Table'
 import Footer from './components/Footer/Footer'
+import SaveButton from './components/SaveButton/SaveButton';
 //styles
 import './main-styles.css'
 //data
@@ -17,6 +18,7 @@ const App = () => {
   
   return (
     <main>
+      <SaveButton /> 
       <MainSection
       name="Мари Вайпан"
       position='Frontend-разработчик'
