@@ -26,11 +26,6 @@ const Table: React.FC = () => {
       <th>E-mail:</th>
       <th>Telegram:</th>
       <th>Github:</th>
-
-      {/* <th scope='row'>E-mail:</th>
-      <th scope='row'>Telegram:</th>
-      <th scope='row'>Github:</th> */}
-      
     </tr>
     <tr>
     <td>
@@ -40,14 +35,10 @@ const Table: React.FC = () => {
       <button value="@marifog" onClick={e => clickToCopy(e)}>@marifog</button>
       </td>
       <td>
-        <a href='https://github.com/Ave-Mari' target="_blank">Ave-Mari</a>
-        
+        <a href='https://github.com/Ave-Mari' target="_blank">Ave-Mari</a>        
         </td>
-    </tr>
-   
-    <tr>
-   
-      
+    </tr> 
+    <tr>  
     </tr>
   </Wrapper>
   )
