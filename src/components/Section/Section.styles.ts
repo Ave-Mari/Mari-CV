@@ -12,12 +12,26 @@ export const Wrapper = styled.section`
         font-size: 2vw;
         margin-top: 0px;
         margin-bottom: 7px;
+
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+         -khtml-user-select: none; 
+           -moz-user-select: none; 
+            -ms-user-select: none; 
+                user-select: none;
     }    
 
     p {
         margin: 0;
         font-size: 1.3vw;
-        text-indent: 3%
+        text-indent: 3%;
+
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+         -khtml-user-select: none; 
+           -moz-user-select: none; 
+            -ms-user-select: none; 
+                user-select: none;
     }
 
     @media only screen and (max-width: 1024px) {

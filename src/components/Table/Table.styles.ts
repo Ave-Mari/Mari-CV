@@ -5,6 +5,13 @@ export const Wrapper = styled.table`
         width: 10%;
         text-align: left;
         font-size: 1.2vw;
+
+        -webkit-touch-callout: none; 
+        -webkit-user-select: none; 
+         -khtml-user-select: none; 
+           -moz-user-select: none; 
+            -ms-user-select: none; 
+                user-select: none;
     }
 
     td {
