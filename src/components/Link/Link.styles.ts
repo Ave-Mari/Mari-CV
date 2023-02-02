@@ -14,9 +14,17 @@ export const Element = styled.a`
     &:hover {
         background: #03857D;
     }
-
+    
     @media only screen and (max-width: 1024px) {
         font-size: 1.6vw;
+
+        &:hover {
+            background: none;
+        }
+
+        &:active {
+            background: #03857D;
+        }
     }
 
     @media only screen and (max-width: 768px) {
