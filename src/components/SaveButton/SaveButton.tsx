@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Save from './../../assets/save-button.svg';
 //styles
 import { Wrapper } from './SaveButton.styles'
 
@@ -19,7 +20,7 @@ const SaveButton: React.FC= () => {
     }
     return (
         <Wrapper onClick={saveHandler}>
-
+            <img src={Save} alt='save'></img>
         </Wrapper>
     )
 }
