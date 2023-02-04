@@ -1,9 +1,7 @@
 import styled from 'styled-components';
-import 'animate.css';
 
-export const Wrapper = styled.div.attrs({
-    className: 'animate__backInDown animate__backOutUp'
-})`
+export const Wrapper = styled.div`
+
     position: fixed;
     top: 18px;
     background: #00E1D3;
