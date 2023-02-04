@@ -21,7 +21,7 @@ const Table: React.FC = () => {
   
   return (
     <Wrapper>
-      {showPopup ?  <Popup /> : null}     
+      {showPopup ? <Popup /> : null}  
     <tr> 
       <th>E-mail:</th>
       <th>Telegram:</th>
