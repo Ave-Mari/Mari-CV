@@ -13,4 +13,18 @@ export const Wrapper = styled.button`
     &:hover {
         background: #096ac0;
     }
+
+    img {
+        width: 24px;
+    }
+
+    @media only screen and (max-width: 480px) { 
+        width: 52px;
+        height: 52px;
+
+        img {
+            width: 29px;
+        }
+    
+    }
 `;
