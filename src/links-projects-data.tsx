@@ -10,7 +10,7 @@ let projects = [
     },
     {
         title: 'CV',
-        url: 'https://github.com/Ave-Mari'
+        url: 'https://mari-vaypan-cv.netlify.app/'
     }
 
 ];
