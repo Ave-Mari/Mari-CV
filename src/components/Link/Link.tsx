@@ -2,7 +2,7 @@ import * as React from 'react';
 //types
 type Props = {
     title: string,
-    href?: string
+    href: string
 }      
 //style
 import { Element } from './Link.styles';
