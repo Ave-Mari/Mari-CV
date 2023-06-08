@@ -22,25 +22,31 @@ const Table: React.FC = () => {
   return (
     <Wrapper>
       {showPopup ? <Popup /> : null}  
+      <tr> 
+      <th>Локация:</th>
+    </tr>
+      <td>
+       Москва, Россия        
+        </td>
     <tr> 
       <th>E-mail:</th>
-      <th>Telegram:</th>
-      <th>Github:</th>
-    </tr>
-    <tr>
+    </tr>  
     <td>
         <button value="avemari98@gmail.com" onClick={e => clickToCopy(e)}>avemari98@gmail.com</button>
       </td>
+      <tr>
+        <th>Telegram:</th>
+        </tr>
       <td>
       <button value="@marifog" onClick={e => clickToCopy(e)}>@marifog</button>
       </td>
+      <tr> 
+      <th>Github:</th>
+    </tr>
       <td>
         <a href='https://github.com/Ave-Mari' target="_blank">Ave-Mari</a>        
         </td>
-    </tr> 
-    <tr>  
-    </tr>
-  </Wrapper>
+      </Wrapper>
   )
 }
 

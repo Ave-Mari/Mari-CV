@@ -17,6 +17,7 @@ export const Wrapper = styled.table`
     td {
         width: 10%;
         text-align: left;
+        font-size: 1.4vw;
         
         button {
             font-size: 1.4vw;
