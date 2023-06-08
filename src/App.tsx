@@ -22,9 +22,9 @@ const App = () => {
       <MainSection
       name="Мари Вайпан"
       position='Frontend-разработчик'
+      title="Основная информация"
       />     
         <Section
-      title="Основная информация"
       >
         <Table />
         
