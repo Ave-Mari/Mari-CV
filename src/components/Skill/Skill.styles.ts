@@ -26,7 +26,7 @@ export const Element = styled.div`
         } 
 
         @media only screen and (max-width: 480px) {
-          font-size: 2.6vw;
+          font-size: 3.2vw;
         }
 
 `

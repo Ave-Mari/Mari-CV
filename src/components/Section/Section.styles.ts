@@ -65,11 +65,11 @@ export const Wrapper = styled.section`
         margin-bottom: 16px;
 
         h2 {
-            font-size: 3.8vw;
+            font-size: 4.3vw;
         }
 
         p {
-            font-size: 2.8vw;
+            font-size: 3.3vw;
         }
 
     }

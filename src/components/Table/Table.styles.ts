@@ -95,17 +95,17 @@ export const Wrapper = styled.table`
 
     @media only screen and (max-width: 480px) {
         th {
-            font-size: 3vw;
+            font-size: 4.5vw;
         }
 
         td {
-            font-size: 2.9vw;
+            font-size: 4vw;
             button {
-                font-size: 2.9vw;
+                font-size: 4vw;
             }
 
             a {
-                font-size: 2.9vw;
+                font-size: 4vw;
             }
         }
     }

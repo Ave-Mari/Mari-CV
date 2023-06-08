@@ -98,11 +98,21 @@ export const Wrapper = styled.section`
         width: 84vw;
 
         h1 {
-            font-size: 5vw;
+            font-size: 7.7vw;
+        }
+        h2 {
+            font-size: 4.3vw;
         }
 
         h3 {
-            font-size: 2.9vw;
+            font-size: 4.5vw;
+        }
+
+        .avatar {
+            width: 64vw;
+            img {
+                width: 55vw;
+            }
         }
       }
 
