@@ -36,6 +36,7 @@ export const Wrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 18px;
     }
 
     .basic-info {
@@ -44,15 +45,36 @@ export const Wrapper = styled.section`
     }
 
     @media only screen and (max-width: 1024px) {
-        width: 58vw;
+        width: 58vw; 
+
+        h1 {
+            font-size: 3vw;
+        }
+        h2 {
+            font-size: 2.7vw;
+        }
+        h3 {
+            font-size: 1.8vw;
+        }
+
+        .avatar {
+            margin-right: 18px;
+        }
     }
 
     @media only screen and (max-width: 768px) {
-        width: 64vw;  
+        width: 64vw;
         padding: 18px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
 
         h1 {
             font-size: 3.9vw;
+        }
+
+        h2 {
+            font-size: 3vw;
         }
 
         h3 {
@@ -60,7 +82,16 @@ export const Wrapper = styled.section`
         }
         .avatar {
             width: 31vw;
+            margin-bottom: 33px;
+            margin-right: 0;
+
+            img {
+                margin-bottom: 12px;
+            }
         }     
+        .basic-info {
+            align-items: center;
+        }
     }
 
     @media only screen and (max-width: 480px) {
