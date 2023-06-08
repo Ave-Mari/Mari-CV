@@ -25,11 +25,6 @@ const App = () => {
       title="Основная информация"
       />     
         <Section
-      >
-        <Table />
-        
-      </Section>
-      <Section
       title="Навыки"
       >
         {skills.map((skill) => <Skill skill={skill} /> )}
