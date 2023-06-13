@@ -36,7 +36,7 @@ export const Wrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-right: 18px;
+        margin-right: 0;
     }
 
     .basic-info {
